@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>MyLibrary</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+<body>
+<header>
+    <a href="{% url 'home' %}">My Library</a>
+</header>
+{% block content %}
+{% endblock %}
+</body>
+</html>

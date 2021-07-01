@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>My Library</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+{#    <script src="{% static 'js/main.js' %}"></script>#}
+    <script>alert();</script>
+</head>
+<body>
+<div>
+    <h2>Hello, welcome to My Library</h2>
+    {{ form }}
+</div>
+</body>
+</html>

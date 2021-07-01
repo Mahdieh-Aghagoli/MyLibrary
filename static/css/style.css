@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    background-color: blanchedalmond;
+    /*background-color: aliceblue;*/
+}
+
+header {
+    background: #4e0d29;
+    height: 70px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    /*border-bottom: 4px solid #212f07;*/
+}
+
+
+header a{
+    color: #e5d3db;
+}
+
+
+a {
+    text-decoration: none;
+}
